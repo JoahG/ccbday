@@ -1,0 +1,5 @@
+<%= form_for @card do |f| %>
+	<%= f.text_field :username, :placeholder => "Username" %> <br>
+	<%= f.file_field :img %> <br>
+	<%= f.submit %>
+<% end %>
